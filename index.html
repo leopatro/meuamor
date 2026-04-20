@@ -579,7 +579,7 @@ document.getElementById('btn6').addEventListener('click',()=>goTo(7));
     canvas.width=wrap.offsetWidth;canvas.height=wrap.offsetHeight;
     ctx=canvas.getContext('2d');
     const cols=['#c8905a','#d4888a','#9b8ab8','#f0e0c8','#e8c090'];
-    for(let i=0;i<720;i++) petals.push({
+    for(let i=0;i<920;i++) petals.push({
       x:Math.random()*canvas.width,y:Math.random()*canvas.height,
       r:3+Math.random()*7,vx:(Math.random()-.5)*3,vy:2+Math.random()*3,
       alpha:1,col:cols[Math.floor(Math.random()*cols.length)],
