@@ -101,6 +101,18 @@ p.body-text em{color:var(--rose);font-style:italic;}
   display:flex;align-items:center;justify-content:center;
   color:var(--muted);font-size:.72rem;letter-spacing:.1em;font-family:'Cormorant Garamond',serif;}
 .photo-bg img{width:100%;height:100%;object-fit:cover;border-radius:3px;}
+.photo-bg1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 3px;
+}
+.photo-bg1 {
+  width: min(200px, 60vw);
+  height: min(200px, 60vw);
+  overflow: hidden;
+  border-radius: 3px;
+}
 #petal-canvas{position:absolute;inset:0;border-radius:3px;pointer-events:none;}
 /* S8 timeline */
 .timeline-wrap{width:min(340px,88vw);margin:16px auto;position:relative;z-index:1;text-align:left;}
@@ -373,6 +385,9 @@ p.body-text em{color:var(--rose);font-style:italic;}
     Esse foi o presente que eu consegui fazer agora.<br>
     Mas um dia… <span style="color:var(--gold)">eu te dou o mundo.</span>
   </p>
+    <div class="photo-bg1" id="photo-liz">
+      <img src="assets/familia.jpeg">
+    </div>
   <button class="btn glow" style="margin-top:28px;position:relative;z-index:1" id="restart-btn">Recomeçar 💖</button>
 </div>
 
